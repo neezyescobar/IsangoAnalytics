@@ -23,6 +23,6 @@ public class IndexController extends GenericForwardComposer
     public void doAfterCompose(Component comp) throws Exception
     {
         dude= (Label)Path.getComponent("/window1/label1");
-        dude.setValue("HELLO WORLD");
+        dude.setValue("HELLO WORLD I updated git dude ");
     }
 }
